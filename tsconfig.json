@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* File layout */
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["esnext"],               // npm i -D @types/node
+    "target": "esnext",                 // Modern output
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",               // Follow Node.js ESM rules
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": false,
+
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
